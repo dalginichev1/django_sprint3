@@ -1,5 +1,3 @@
-# blogicum/blogicum/settings.py
-import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -10,7 +8,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# ОЧЕНЬ ВАЖНО: INSTALLED_APPS должен быть КОРРЕКТНЫМ
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
